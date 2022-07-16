@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Netflix clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O projeto foi realizado utilizando API - The Movie Database
+React
+Estilização - Styled Components
 
-## Available Scripts
+## Utilização de Hooks
 
-In the project directory, you can run:
+React Hooks
 
-### `npm start`
+### Git Clone
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+$ git clone https://github.com/EliasColturato/netflix-clone
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Instale as dependencias do projeto com o seguinte comando:
 
-### `npm test`
+$ yarn install ou $ yarn
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Após a instalação das dependenciais inicie o projeto com:
 
-### `npm run build`
+$ yarn start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Api Utilizada
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+A API utilizada foi disponibilizada pelo The Movie Database, tendo a seguinte documentação: https://developers.themoviedb.org/3/getting-started/introduction
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Construção da Aplicação
 
-### `npm run eject`
+Router.js (Componente de criação de rotas utilizando react-router-dom)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+index.js (index que faz a ligação entre o root e a aplicação)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+index.css (estilo padrão que procede na aplicação)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Public
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+index.js (Arquivo root onde é a base principal do projeto)
 
-## Learn More
+src
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+pages
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+HomePage.js (Pagina home onde engloba todos components referentes a página inicial)
 
-### Code Splitting
+Details.js (Página de detalhes para cada filme)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+components
 
-### Analyzing the Bundle Size
+Header.js(Componente cabeçalho que é composto por logo e botões de navegação)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+FilmesVotados.js(Componente que faz a mostra dos filmes em slide)
 
-### Making a Progressive Web App
+style
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+DetailsStyle.js ()
 
-### Advanced Configuration
+HeaderStyle.js (Estilos feitos em styled-components referente ao componente Header)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+RecomendacaoStyle.js (Estilos feitos em styled-components referente ao componente Recomendacao)
 
-### Deployment
+VotadosStyle.js (Estilos feitos em styled-components referente ao componente Votados)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+api
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://developers.themoviedb.org/3/getting-started/introduction
