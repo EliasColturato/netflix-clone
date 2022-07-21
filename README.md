@@ -44,7 +44,7 @@ HomePage.js (Pagina home onde engloba todos components referentes a página inic
 
 Details.js (Página de detalhes para cada filme)
 
-components
+## Components
 
 Header.js(Componente cabeçalho que é composto por logo e botões de navegação)
 
