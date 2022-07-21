@@ -26,8 +26,6 @@ A API utilizada foi disponibilizada pelo The Movie Database, tendo a seguinte do
 
 ## Construção da Aplicação
 
-Router.js (Componente de criação de rotas utilizando react-router-dom)
-
 index.js (index que faz a ligação entre o root e a aplicação)
 
 index.css (estilo padrão que procede na aplicação)
