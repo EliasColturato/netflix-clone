@@ -20,11 +20,11 @@ Após a instalação das dependenciais inicie o projeto com:
 
 $ yarn start
 
-### Api Utilizada
+## Api Utilizada
 
 A API utilizada foi disponibilizada pelo The Movie Database, tendo a seguinte documentação: https://developers.themoviedb.org/3/getting-started/introduction
 
-### Construção da Aplicação
+## Construção da Aplicação
 
 Router.js (Componente de criação de rotas utilizando react-router-dom)
 
@@ -38,7 +38,7 @@ index.js (Arquivo root onde é a base principal do projeto)
 
 src
 
-pages
+## Pages
 
 HomePage.js (Pagina home onde engloba todos components referentes a página inicial)
 
@@ -50,7 +50,7 @@ Header.js(Componente cabeçalho que é composto por logo e botões de navegaçã
 
 FilmesVotados.js(Componente que faz a mostra dos filmes em slide)
 
-style
+## Style
 
 DetailsStyle.js ()
 
@@ -60,6 +60,6 @@ RecomendacaoStyle.js (Estilos feitos em styled-components referente ao component
 
 VotadosStyle.js (Estilos feitos em styled-components referente ao componente Votados)
 
-api
+## Api
 
 https://developers.themoviedb.org/3/getting-started/introduction
