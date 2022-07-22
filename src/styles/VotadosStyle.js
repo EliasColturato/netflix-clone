@@ -25,7 +25,13 @@ export const Movie = styled.li`
     width: 180px;
     border-radius: 1rem;
     margin-bottom: 2rem;
+    transition: all 0.5s;
   }
+  
+  img:hover{
+    transform: scale (1.1);
+ }
+ 
   span {
     font-weight: 400;
     font-size: 120%;
